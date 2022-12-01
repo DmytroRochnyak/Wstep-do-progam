@@ -1,0 +1,12 @@
+import numpy as np
+
+macierz - np.random.randint(low - 0, high - 25, size - (5,5))
+print()
+print(macierz)
+print("Wartosc minimalna: ", macierz.min())
+print("Wartosc maksymalna: ", macierz.max())
+
+print("Wartosci minimalne wiersza: ", macierz.min(axis = 1))
+print("Wartosci maksymalne wiersza: ", macierz.max(axis = 0))
+
+print(macierz.sum(axis - 1))
