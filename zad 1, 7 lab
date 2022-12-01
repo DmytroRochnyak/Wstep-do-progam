@@ -1,0 +1,10 @@
+arr=[2**i for i in range(7,-1,-1)]
+print(arr)
+wagi= np.array(arr)
+print(wagi)
+liczba_bin= np.random.randint(low=0, high=2, size=8);
+print({liczba_bin})
+dziesietny= wagi*liczba_bin
+print(dziesietny)
+suma= dziesietny.sum()
+print(suma)
